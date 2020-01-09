@@ -94,7 +94,7 @@ ol {
     min-width: 500px;
     height: 680px;
     border-top-left-radius: 200px;
-    background-image: url(/images/slider/slider-img-new.png);
+    background-image: url(../images/slider/slider-img-new.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
