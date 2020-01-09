@@ -120,12 +120,12 @@ ol {
       background-color: #9fadc2; }
   .slider__button-left {
     margin-left: 48px;
-    background-image: url(/images/slider/arrow_left.png);
+    background-image: url(../images/slider/arrow_left.png);
     background-position: center;
     background-repeat: no-repeat; }
   .slider__button-right {
     margin-left: 8px;
-    background-image: url(/images/slider/arrow_right.png);
+    background-image: url(../images/slider/arrow_right.png);
     background-position: center;
     background-repeat: no-repeat; }
   .slider__text-block {
