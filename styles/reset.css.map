@@ -1,0 +1,1 @@
+{"version":3,"sources":["reset.scss"],"names":[],"mappings":"AAAA;;;;;;;;;;;EAWE,SAAS;EACT,UAAU,EAAA;;AAGZ;EACE,qBAAqB,EAAA;;AAGvB;;EAEE,gBAAgB,EAAA","file":"reset.css","sourcesContent":["html,\nbody,\nul,\nli,\nbutton,\ninput,\ntextarea,\nh1,\nh2,\nh3,\np {\n  margin: 0;\n  padding: 0;\n}\n\na {\n  text-decoration: none;\n}\n\nul,\nol {\n  list-style: none;\n}\n"]}
