@@ -128,12 +128,12 @@ ol {
               box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.17); }
   .slider__button-left {
     margin-left: 48px;
-    background-image: url(/images/slider/arrow_left.png);
+    background-image: url(../images/slider/arrow_left.png);
     background-position: center;
     background-repeat: no-repeat; }
   .slider__button-right {
     margin-left: 8px;
-    background-image: url(/images/slider/arrow_right.png);
+    background-image: url(../images/slider/arrow_right.png);
     background-position: center;
     background-repeat: no-repeat; }
   .slider__text-block {
@@ -347,7 +347,7 @@ ol {
     height: 40px;
     margin-right: 16px;
     background-color: #2060f6;
-    background-image: url(/images/features/mdi_arrow_forward.png);
+    background-image: url(../images/features/mdi_arrow_forward.png);
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
