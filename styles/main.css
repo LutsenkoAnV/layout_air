@@ -31,10 +31,9 @@ ol {
 
 .header {
   position: relative;
-  font-family: "Poppins", sans-serif;
-  background-color: #2c2c2c;
   height: 752px;
   padding: 48px 20px 0;
+  background-color: #2c2c2c;
   border-radius: 0 0 30px 30px; }
   .header__logo {
     width: 45px;
@@ -46,9 +45,7 @@ ol {
   .header__container {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    max-width: 1090px;
-    margin: 0 auto; }
+    display: flex; }
   .header__text-block {
     margin-top: 120px; }
   .header__heading {
@@ -184,7 +181,7 @@ ol {
   .nav__item--active::after {
     content: "";
     display: block;
-    background: #ff9c8e;
+    background: #2060f6;
     top: 28px;
     height: 2px;
     border-radius: 4px; }
@@ -204,7 +201,6 @@ ol {
   width: 754px;
   margin: 148px auto; }
   .about-us__heading {
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 48px;
@@ -221,9 +217,6 @@ ol {
   font-family: "Poppins", sans-serif;
   padding: 128px 20px 0;
   background-color: #fff; }
-  .expertise__container {
-    max-width: 1090px;
-    margin: 0 auto; }
   .expertise__heading {
     text-align: center;
     font-weight: 600;
@@ -274,11 +267,17 @@ ol {
 .process {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 251px 20px 0; }
+  padding: 148px 20px 0; }
   .process__container {
-    position: relative;
-    max-width: 1090px;
-    margin: 0 auto 250px; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative; }
+  .process__text-block {
+    padding-top: 103px; }
   .process__title {
     display: inline-block;
     margin-bottom: 16px;
@@ -302,6 +301,24 @@ ol {
     font-size: 14px;
     line-height: 21px;
     color: #6c788b; }
+  .process__component {
+    display: grid;
+    grid-template-areas: ". component-2" "component-1 component-2" "component-1 component-4" "component-3 component-4" "component-3 .";
+    grid-gap: 30px;
+    grid-template-columns: 264px 264px;
+    grid-template-rows: auto; }
+
+.component-first {
+  grid-area: component-1; }
+
+.component-second {
+  grid-area: component-2; }
+
+.component-third {
+  grid-area: component-3; }
+
+.component-fourth {
+  grid-area: component-4; }
 
 .component {
   -webkit-box-sizing: border-box;
@@ -370,31 +387,63 @@ ol {
     line-height: 19px;
     color: #334563; }
 
-.component-first {
-  position: absolute;
-  top: 29px;
-  right: 294px; }
-
-.component-second {
-  position: absolute;
-  top: -105px;
-  right: 0; }
-
-.component-third {
-  position: absolute;
-  top: 323px;
-  right: 294px; }
-
-.component-fourth {
-  position: absolute;
-  top: 191px;
-  right: 0; }
-
 .features {
+  position: relative;
+  margin-top: -88px;
+  margin-left: 121px;
   height: 976px;
-  background-color: #2c2c2c; }
+  background-color: #2c2c2c;
+  color: #fff;
+  border-radius: 30px 0 0 30px;
+  z-index: -1; }
+  .features__container {
+    padding-top: 204px;
+    padding-left: 30px; }
+  .features__approach {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+  .features__heading {
+    width: 362px;
+    margin: 16px 0 32px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px; }
+  .features__feature-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 64px; }
+  .features__text {
+    width: 264px;
+    font-family: "Open sans", sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    margin-left: 34px; }
+  .features__image {
+    position: absolute;
+    width: 47%;
+    min-width: 500px;
+    height: 680px;
+    bottom: 0;
+    right: 0;
+    background-image: url(../images/features/Photo-new.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 30px; }
 
 body {
+  font-family: "Poppins", sans-serif;
   background: #e5e5e5; }
+
+.container {
+  max-width: 1090px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
