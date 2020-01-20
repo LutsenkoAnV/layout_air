@@ -377,14 +377,10 @@ ol {
   .nav__link {
     color: #fff;
     white-space: pre;
-    outline: none;
     -webkit-transition: color 0.3s;
     transition: color 0.3s; }
     .nav__link:hover {
       color: #9FADC2; }
-    .nav__link:focus {
-      -webkit-box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.17);
-              box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.17); }
 
 .logo {
   width: 45px;
