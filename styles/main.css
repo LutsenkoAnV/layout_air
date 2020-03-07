@@ -476,8 +476,8 @@ ol {
     font-size: 14px;
     line-height: 21px; }
   .objective:hover {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(55%, #2c2c2c33), color-stop(88%, #2060f699));
-    background: linear-gradient(180deg, #2c2c2c33 55%, #2060f699 88%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(45%, #c5c5c533), color-stop(88%, #75757599));
+    background: linear-gradient(180deg, #c5c5c533 45%, #75757599 88%);
     -webkit-box-shadow: 0 0 12px rgba(44, 44, 44, 0.85);
             box-shadow: 0 0 12px rgba(44, 44, 44, 0.85); }
   .objective:hover .objective__text {
@@ -573,7 +573,9 @@ ol {
   background: #fff;
   -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
           box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
-  border-radius: 16px; }
+  border-radius: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
   .component__number-block {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -597,12 +599,26 @@ ol {
     line-height: 19px;
     color: #6c788b; }
   .component__learn-button {
+    width: 180px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    border-radius: 21px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .component__learn-button:hover {
+      background-color: #2060f6; }
+  .component__learn {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #334563;
+    cursor: pointer; }
+  .component__learn-button:hover .component__learn {
+    color: #fff; }
   .component__button {
     width: 40px;
     height: 40px;
@@ -625,11 +641,9 @@ ol {
     .component__button:focus {
       -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.47);
               box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.47); }
-  .component__learn {
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 19px;
-    color: #334563; }
+  .component:hover {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02); }
   @media (max-width: 1000px) {
     .component {
       height: 244px;
