@@ -476,14 +476,8 @@ ol {
     font-size: 14px;
     line-height: 21px; }
   .objective:hover {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(45%, #c5c5c533), color-stop(88%, #75757599));
-    background: linear-gradient(180deg, #c5c5c533 45%, #75757599 88%);
     -webkit-box-shadow: 0 0 12px rgba(44, 44, 44, 0.85);
             box-shadow: 0 0 12px rgba(44, 44, 44, 0.85); }
-  .objective:hover .objective__text {
-    color: #fff; }
-  .objective:hover .objective__heading {
-    color: #fff; }
   @media (max-width: 1000px) {
     .objective {
       margin-bottom: 70px; } }
